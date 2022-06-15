@@ -47,6 +47,6 @@ export const homeObjThree = {
     img: Img3,
     alt: 'Car',
     dark: false,
-    primary: true,
+    primary: false,
     darkText: true
 }
