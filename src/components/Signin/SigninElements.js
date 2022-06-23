@@ -106,5 +106,26 @@ export const Text = styled.span`
     margin-top: 24px;
     color: #fff;
     font-size: 14px;
+    cursor: pointer;
+
+    &:hover {
+        color: #01bf71;
+        transform: scale(1.2);
+        transition: all 0.2s ease-out;
+    }
+`
+
+export const Text2 = styled.span`
+    text-align: center;
+    margin-top: 24px;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+
+    &:hover {
+        color: #01bf71;
+        transform: scale(1.2);
+        transition: all 0.2s ease-out;
+    }
 
 `
